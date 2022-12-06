@@ -201,7 +201,7 @@ function resetDb()
                />
               
           <View style={styles.buttons}>
-          <TouchableOpacity style={styles.box} onPress={ () => addDataToDb(data.PIT, data.size) }>
+          <TouchableOpacity style={styles.box} onPress={ () => addDataToDb(data.PIT, data.cursize) }>
             <Text style={styles.boxText}>Update</Text>
           </TouchableOpacity>
 
@@ -240,12 +240,14 @@ const styles = StyleSheet.create({
   input: {
     marginTop: 50,
     fontSize: 30,
-    backgroundColor: 'white',
+    backgroundColor: '#6cf',
+    height: '10%',
     width: '80%',
+    borderRadius: 10,
   },
 
   holderBox: {
-    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    backgroundColor: 'white',
     width: '80%',
     height: '70%',
     borderRadius: 10,
@@ -282,7 +284,7 @@ const styles = StyleSheet.create({
   flex:1,
   flexDirection: "row",
   position: "absolute",
-  justifyContent: 'center',
+  justifyContent: 'space-between',
 },
  box:{
   height: 80,
