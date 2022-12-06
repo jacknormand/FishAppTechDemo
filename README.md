@@ -1,5 +1,7 @@
 # FishAppTechDemo
-# Made by jack normand
+Made by jack normand
+# how to install/run.  
+follow expo install instructions, and just run npx expo start in folder.    
 # USAGE.  
 ONLY SUPPORTS SIZE.    
 update button updates size for a PIT tag # entered.   
