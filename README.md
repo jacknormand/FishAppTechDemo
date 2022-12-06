@@ -1,4 +1,5 @@
 # FishAppTechDemo
+Expo demo created for Fish app. Shows local database utilization and React Native app development.  
 ## How to install/run.  
 Run `npx expo start` in folder
 # USAGE.  
